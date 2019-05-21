@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"truyen1chieuuart\startup_stm32f103xb.o"
+"truyen1chieuuart\dwt_stm32_delay.o"
+"truyen1chieuuart\main.o"
+"truyen1chieuuart\stm32f1xx_it.o"
+"truyen1chieuuart\stm32f1xx_hal_msp.o"
+"truyen1chieuuart\stm32f1xx_hal_gpio_ex.o"
+"truyen1chieuuart\stm32f1xx_hal_tim.o"
+"truyen1chieuuart\stm32f1xx_hal_tim_ex.o"
+"truyen1chieuuart\stm32f1xx_hal_uart.o"
+"truyen1chieuuart\stm32f1xx_hal.o"
+"truyen1chieuuart\stm32f1xx_hal_rcc.o"
+"truyen1chieuuart\stm32f1xx_hal_rcc_ex.o"
+"truyen1chieuuart\stm32f1xx_hal_gpio.o"
+"truyen1chieuuart\stm32f1xx_hal_dma.o"
+"truyen1chieuuart\stm32f1xx_hal_cortex.o"
+"truyen1chieuuart\stm32f1xx_hal_pwr.o"
+"truyen1chieuuart\stm32f1xx_hal_flash.o"
+"truyen1chieuuart\stm32f1xx_hal_flash_ex.o"
+"truyen1chieuuart\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "truyen1ChieuUART\truyen1ChieuUART.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "truyen1ChieuUART.map" -o truyen1ChieuUART\truyen1ChieuUART.axf
